@@ -1,4 +1,6 @@
-# Insurance Cost Regression Experiments
+# Insurance Cost Studio
+
+[**Launch live demo →**](https://health-insuranceprediction.streamlit.app/) · [Deployment guide](DEPLOYMENT.md)
 
 ## Interactive Streamlit app
 
@@ -11,7 +13,7 @@ python -m streamlit run streamlit_app/app.py
 
 This app fits a fresh random-forest baseline from the included dataset. Its evaluation is separate from prior notebook runs.
 
-See [DEPLOYMENT.md](DEPLOYMENT.md) for Community Cloud setup, validation coverage, and runtime requirements. A live deployment is not yet confirmed.
+See [DEPLOYMENT.md](DEPLOYMENT.md) for Community Cloud setup, validation coverage, and runtime requirements. Live app: https://health-insuranceprediction.streamlit.app/
 
 
 A collection of notebooks exploring insurance-cost data, preprocessing, regression models, and hyperparameter tuning.
