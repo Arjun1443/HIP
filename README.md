@@ -1,5 +1,19 @@
 # Insurance Cost Regression Experiments
 
+## Interactive Streamlit app
+
+A companion application is available in [streamlit_app/app.py](streamlit_app/app.py).
+
+```bash
+python -m pip install -r streamlit_app/requirements.txt
+python -m streamlit run streamlit_app/app.py
+```
+
+This app fits a fresh random-forest baseline from the included dataset. Its evaluation is separate from prior notebook runs.
+
+See [DEPLOYMENT.md](DEPLOYMENT.md) for Community Cloud setup, validation coverage, and runtime requirements. A live deployment is not yet confirmed.
+
+
 A collection of notebooks exploring insurance-cost data, preprocessing, regression models, and hyperparameter tuning.
 
 ## Why this project matters
